@@ -1,0 +1,437 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Framework Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Game Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Game Files\Character">
+      <UniqueIdentifier>{0c790c7d-13d2-4ac9-b9f0-adb20daa8615}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Monsters">
+      <UniqueIdentifier>{1d2fca95-4e5b-4677-9820-225739f0a261}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Tears">
+      <UniqueIdentifier>{1126c01c-a379-4360-bedc-d616a870befe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Managers">
+      <UniqueIdentifier>{53fd58d9-ca9e-49aa-ab65-998709171f4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Power Ups">
+      <UniqueIdentifier>{be158386-94f5-4634-b385-4a574fef8c9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Sprites">
+      <UniqueIdentifier>{25465269-eaba-48a0-9899-1a1d3d01cc7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Menu">
+      <UniqueIdentifier>{3aa8985d-58e5-475e-b124-c9d5d3928fcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Sound">
+      <UniqueIdentifier>{c81e3afd-cbf5-4579-ab36-c395a5064f63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Game">
+      <UniqueIdentifier>{4e8141cc-bc2d-42f0-8221-14c467ceebe5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Game\Level">
+      <UniqueIdentifier>{b4d18fee-3bdd-4e88-9fe7-1c466767af12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Game\Level\Rooms">
+      <UniqueIdentifier>{9b42ee84-2db7-4ff8-8629-c148dfd6f53b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\HUD">
+      <UniqueIdentifier>{ef3d4e4e-54ed-414d-82ee-77d81d527e51}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Framework Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Core.h">
+      <Filter>Framework Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix2x3.h">
+      <Filter>Framework Files</Filter>
+    </ClInclude>
+    <ClInclude Include="structs.h">
+      <Filter>Framework Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SVGParser.h">
+      <Filter>Framework Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Framework Files</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>Framework Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2f.h">
+      <Filter>Framework Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Body.h">
+      <Filter>Game Files\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>Game Files\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Head.h">
+      <Filter>Game Files\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>Game Files\Monsters</Filter>
+    </ClInclude>
+    <ClInclude Include="InterpolatedTear.h">
+      <Filter>Game Files\Tears</Filter>
+    </ClInclude>
+    <ClInclude Include="AttackFly.h">
+      <Filter>Game Files\Monsters</Filter>
+    </ClInclude>
+    <ClInclude Include="Gusher.h">
+      <Filter>Game Files\Monsters</Filter>
+    </ClInclude>
+    <ClInclude Include="RoundWorm.h">
+      <Filter>Game Files\Monsters</Filter>
+    </ClInclude>
+    <ClInclude Include="Tear.h">
+      <Filter>Game Files\Tears</Filter>
+    </ClInclude>
+    <ClInclude Include="TearManager.h">
+      <Filter>Game Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterManager.h">
+      <Filter>Game Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Belt.h">
+      <Filter>Game Files\Power Ups</Filter>
+    </ClInclude>
+    <ClInclude Include="PowerUp.h">
+      <Filter>Game Files\Power Ups</Filter>
+    </ClInclude>
+    <ClInclude Include="Heart.h">
+      <Filter>Game Files\Power Ups</Filter>
+    </ClInclude>
+    <ClInclude Include="Snack.h">
+      <Filter>Game Files\Power Ups</Filter>
+    </ClInclude>
+    <ClInclude Include="PoisonTouch.h">
+      <Filter>Game Files\Power Ups</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Game Files\Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="DoubleSprite.h">
+      <Filter>Game Files\Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="BossRoom.h">
+      <Filter>Game Files\Game\Level\Rooms</Filter>
+    </ClInclude>
+    <ClInclude Include="Room.h">
+      <Filter>Game Files\Game\Level\Rooms</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss.h">
+      <Filter>Game Files\Monsters</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage.h">
+      <Filter>Game Files\Game\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="Hatch.h">
+      <Filter>Game Files\Game\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEffect.h">
+      <Filter>Game Files\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundStream.h">
+      <Filter>Game Files\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOverScreen.h">
+      <Filter>Game Files\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalRoom.h">
+      <Filter>Game Files\Game\Level\Rooms</Filter>
+    </ClInclude>
+    <ClInclude Include="RoomManager.h">
+      <Filter>Game Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="StartRoom.h">
+      <Filter>Game Files\Game\Level\Rooms</Filter>
+    </ClInclude>
+    <ClInclude Include="Door.h">
+      <Filter>Game Files\Game\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenFlow.h">
+      <Filter>Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StartScreen.h">
+      <Filter>Game Files\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadAndSaveScreen.h">
+      <Filter>Game Files\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="AreYouSureScreen.h">
+      <Filter>Game Files\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Game Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniMap.h">
+      <Filter>Game Files\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadingScreen.h">
+      <Filter>Game Files\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="HealthBar.h">
+      <Filter>Game Files\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PowerUpManager.h">
+      <Filter>Game Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectManager.h">
+      <Filter>Game Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>Game Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalTear.h">
+      <Filter>Game Files\Tears</Filter>
+    </ClInclude>
+    <ClInclude Include="Lemon.h">
+      <Filter>Game Files\Power Ups</Filter>
+    </ClInclude>
+    <ClInclude Include="ChargeBar.h">
+      <Filter>Game Files\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="DeadScreen.h">
+      <Filter>Game Files\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>Game Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="OptionsScreen.h">
+      <Filter>Game Files\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlsScreen.h">
+      <Filter>Game Files\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuScreen.h">
+      <Filter>Game Files\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="EndScreen.h">
+      <Filter>Game Files\Menu</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Game Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2f.cpp">
+      <Filter>Framework Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix2x3.cpp">
+      <Filter>Framework Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Framework Files</Filter>
+    </ClCompile>
+    <ClCompile Include="structs.cpp">
+      <Filter>Framework Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SVGParser.cpp">
+      <Filter>Framework Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Framework Files</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>Framework Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core.cpp">
+      <Filter>Framework Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Game Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Body.cpp">
+      <Filter>Game Files\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>Game Files\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Head.cpp">
+      <Filter>Game Files\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="AttackFly.cpp">
+      <Filter>Game Files\Monsters</Filter>
+    </ClCompile>
+    <ClCompile Include="Gusher.cpp">
+      <Filter>Game Files\Monsters</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>Game Files\Monsters</Filter>
+    </ClCompile>
+    <ClCompile Include="RoundWorm.cpp">
+      <Filter>Game Files\Monsters</Filter>
+    </ClCompile>
+    <ClCompile Include="InterpolatedTear.cpp">
+      <Filter>Game Files\Tears</Filter>
+    </ClCompile>
+    <ClCompile Include="Tear.cpp">
+      <Filter>Game Files\Tears</Filter>
+    </ClCompile>
+    <ClCompile Include="TearManager.cpp">
+      <Filter>Game Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterManager.cpp">
+      <Filter>Game Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Belt.cpp">
+      <Filter>Game Files\Power Ups</Filter>
+    </ClCompile>
+    <ClCompile Include="PowerUp.cpp">
+      <Filter>Game Files\Power Ups</Filter>
+    </ClCompile>
+    <ClCompile Include="Heart.cpp">
+      <Filter>Game Files\Power Ups</Filter>
+    </ClCompile>
+    <ClCompile Include="Snack.cpp">
+      <Filter>Game Files\Power Ups</Filter>
+    </ClCompile>
+    <ClCompile Include="PoisonTouch.cpp">
+      <Filter>Game Files\Power Ups</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Game Files\Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="DoubleSprite.cpp">
+      <Filter>Game Files\Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="BossRoom.cpp">
+      <Filter>Game Files\Game\Level\Rooms</Filter>
+    </ClCompile>
+    <ClCompile Include="Room.cpp">
+      <Filter>Game Files\Game\Level\Rooms</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss.cpp">
+      <Filter>Game Files\Monsters</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage.cpp">
+      <Filter>Game Files\Game\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="Hatch.cpp">
+      <Filter>Game Files\Game\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEffect.cpp">
+      <Filter>Game Files\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundStream.cpp">
+      <Filter>Game Files\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOverScreen.cpp">
+      <Filter>Game Files\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="NormalRoom.cpp">
+      <Filter>Game Files\Game\Level\Rooms</Filter>
+    </ClCompile>
+    <ClCompile Include="RoomManager.cpp">
+      <Filter>Game Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="StartRoom.cpp">
+      <Filter>Game Files\Game\Level\Rooms</Filter>
+    </ClCompile>
+    <ClCompile Include="Door.cpp">
+      <Filter>Game Files\Game\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenFlow.cpp">
+      <Filter>Game Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StartScreen.cpp">
+      <Filter>Game Files\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadAndSaveScreen.cpp">
+      <Filter>Game Files\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="AreYouSureScreen.cpp">
+      <Filter>Game Files\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Game Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniMap.cpp">
+      <Filter>Game Files\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadingScreen.cpp">
+      <Filter>Game Files\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="HealthBar.cpp">
+      <Filter>Game Files\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>Game Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectManager.cpp">
+      <Filter>Game Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="PowerUpManager.cpp">
+      <Filter>Game Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>Game Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Singleton.cpp">
+      <Filter>Game Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NormalTear.cpp">
+      <Filter>Game Files\Tears</Filter>
+    </ClCompile>
+    <ClCompile Include="Lemon.cpp">
+      <Filter>Game Files\Power Ups</Filter>
+    </ClCompile>
+    <ClCompile Include="ChargeBar.cpp">
+      <Filter>Game Files\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="DeadScreen.cpp">
+      <Filter>Game Files\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>Game Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="OptionsScreen.cpp">
+      <Filter>Game Files\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="ControlsScreen.cpp">
+      <Filter>Game Files\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuScreen.cpp">
+      <Filter>Game Files\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="EndScreen.cpp">
+      <Filter>Game Files\Menu</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vanden_Heede_Pauline_The Binding of Isaac Rebirth.xlsx">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\UML relation diagram.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

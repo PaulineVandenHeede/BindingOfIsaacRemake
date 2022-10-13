@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <OutDir>$(SolutionDir)bin\$(Configuration)\$(Platform)\</OutDir>
+    <OutputFile>$(OutDir)</OutputFile>
+    <IntDir>TempFiles\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>
+        include/SDL2-2.0.10;
+        include/SDL2_image-2.0.5;
+        include/SDL2_mixer-2.0.4;
+        include/SDL2_ttf-2.0.15;
+        %(AdditionalIncludeDirectories)
+      </AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>
+        lib/SDL2-2.0.10/x64;
+        lib/SDL2_image-2.0.5/x64;
+        lib/SDL2_mixer-2.0.4/x64;
+        lib/SDL2_ttf-2.0.15/x64;
+        %(AdditionalLibraryDirectories)
+      </AdditionalLibraryDirectories>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+        xcopy "$(SolutionDir)lib\SDL2-2.0.10\x64\*.dll" "$(OutDir)" /y /D
+        xcopy "$(SolutionDir)lib\SDL2_image-2.0.5\x64\*.dll" "$(OutDir)" /y /D
+        xcopy "$(SolutionDir)lib\SDL2_mixer-2.0.4\x64\*.dll" "$(OutDir)" /y /D
+        xcopy "$(SolutionDir)lib\SDL2_ttf-2.0.15\x64\*.dll" "$(OutDir)" /y /D
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>
